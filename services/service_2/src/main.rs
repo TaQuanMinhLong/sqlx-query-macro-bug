@@ -12,7 +12,7 @@ async fn main() -> Result<(), Error> {
 struct User {
     id: i32,
     name: String,
-    age: i16,
+    age: i32,
 }
 
 async fn connect_pg() -> Result<PgPool, Error> {
