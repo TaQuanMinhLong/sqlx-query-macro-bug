@@ -11,7 +11,7 @@ async fn main() -> Result<(), Error> {
 #[derive(Debug)]
 struct User {
     id: i32,
-    full_name: String,
+    name: String,
     age: i32,
 }
 
