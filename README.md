@@ -2,7 +2,14 @@
 
 ## Steps to reproduce the bug
 
-Prepare your own DATABASE_URL, default is `postgres://postgres:postgres@localhost:5432`
+Prepare your own database, my setup is
+
+```
+user: postgres
+password: postgres
+host: localhost
+port:5432
+```
 
 At this point you can even see the error from `service_1` saying
 
