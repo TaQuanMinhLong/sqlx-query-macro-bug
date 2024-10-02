@@ -31,3 +31,5 @@ cd services/service_2
 cargo sqlx database create
 cargo sqlx migrate
 ```
+
+I found a workaround for this bug is to set env inside Cargo.toml file of each service directory.
