@@ -1,0 +1,16 @@
+[build]
+target = "x86_64-unknown-linux-musl"
+
+[cargo-new]
+vcs = "none"
+
+[profile.release]
+codegen-units = 1
+panic = "abort"
+lto = true
+
+[profile.dev]
+debug-assertions = false
+
+[profile.test]
+debug-assertions = true

@@ -1,0 +1,7 @@
+[workspace]
+members = ["services/*"]
+resolver = "2"
+
+[workspace.dependencies]
+sqlx = { version = "0.8", features = ["postgres", "runtime-tokio"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
